@@ -9,7 +9,6 @@ on:
 
 jobs:
   autogreen:
-    runs-on: self-hosted
     steps:
       - name: Clone repository
         uses: actions/checkout@v2
