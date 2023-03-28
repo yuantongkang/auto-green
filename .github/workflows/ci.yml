@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   autogreen:
-    uses:  yuantongkang/auto-green/.github/workflows/child.yml@main
+    uses:  yuantongkang/auto-green/.github/workflows/child.yml@main 
       
     
 
