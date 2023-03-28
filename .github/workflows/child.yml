@@ -9,5 +9,5 @@ jobs:
     steps: 
      - name: Setup Go environment
        uses: actions/setup-go@v4.0.0
-       shell:
-        - echo "hello"
+     -  run: echo "hello"
+        name: xxxx
