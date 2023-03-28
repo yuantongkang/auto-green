@@ -14,7 +14,7 @@ jobs:
     steps:
      - run: echo "echoJob"
   autogreen3:
-    uses:  yuantongkang/auto-green/.github/workflows/child.yml@main 
+    uses:  yuantongkang/auto-green/.github/workflows/child.yml@main  
     
       
     
