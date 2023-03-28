@@ -17,4 +17,4 @@ jobs:
         name: child1 step
   child_job1:
     name: child1 job2
-    uses:  yuantongkang/auto-green/.github/workflows/child2.yml@main 
+    uses:  yuantongkang/auto-green/.github/workflows/child.yml@main 
