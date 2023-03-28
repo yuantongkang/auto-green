@@ -10,8 +10,8 @@ on:
 
 jobs:
   my_job:
-    name: deploy to staging
+    name: child2 job
     runs-on: ubuntu-latest
     steps: 
      -  run: echo "hello child2"
-        name: child2 job
+        name: child2 job step
