@@ -1,3 +1,9 @@
+on:
+  push:
+    branches:
+      - main
+
+
 jobs:
   my_job:
     name: deploy to staging
