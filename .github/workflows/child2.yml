@@ -10,8 +10,8 @@ on:
 
 jobs:
   my_job:
-    name: child2 job
+    name: child2 job1
     runs-on: ubuntu-latest
     steps: 
-     -  run: echo "hello child2"
+     -  run: echo "hello child2 job1 step"
         name: child2 job step
