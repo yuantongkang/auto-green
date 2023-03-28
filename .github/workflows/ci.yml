@@ -10,7 +10,7 @@ jobs:
   autogreen2:
     uses:  yuantongkang/auto-green/.github/workflows/child.yml@main 
   echoJob:
-    runs-on: unbuntu-lastest
+    runs-on: ubuntu-latest
     steps:
      - run: echo "echoJob"
   autogreen3:
