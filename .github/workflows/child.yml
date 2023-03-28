@@ -10,10 +10,11 @@ on:
 
 jobs:
   child_job:
-    name: deploy to staging
+    name: child1 job
     runs-on: ubuntu-latest
     steps: 
      -  run: echo "hello"
-        name: child1
+        name: child1 step
   child_job1:
+    name: child1 job2
     uses:  yuantongkang/auto-green/.github/workflows/child2.yml@main 
